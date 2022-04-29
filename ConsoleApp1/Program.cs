@@ -11,7 +11,6 @@ namespace ConsoleApp1
         }
         private static void rezabrabaa(int a, int b, int c)
         {
-            int[] array = new int[3] { a, b, c };
             List<int> list = new List<int> { a, b, c };
             print(list);
         }
