@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
@@ -11,9 +12,10 @@ namespace ConsoleApp1
         private static void rezabrabaa(int a, int b, int c)
         {
             int[] array = new int[3] { a, b, c };
-            print(array);
+            List<int> list = new List<int> { a, b, c };
+            print(list);
         }
-        private static void print(int[] array)
+        private static void print(List<int> array)
         {
             foreach (var item in array)
             {
